@@ -7,7 +7,7 @@
   font-family: "Inter", sans-serif;
 }
 .websit {
-  width: 80%;
+  width: 90%;
   height: 500px;
   margin: 0 auto;
 
@@ -55,7 +55,7 @@
   color: #ff1b74;
 }
 .big-pic {
-  width: 20%;
+  width: 40%;
 }
 /* introw end */
 
@@ -190,16 +190,21 @@
 @media screen and (max-width: 576px) {
   .websit {
     max-width: 400px;
+    width: 100%;
   }
+  /* * {
+    width: auto;
+  } */
 
   .introw {
     flex-direction: column-reverse;
+    margin: 0;
   }
   .p {
     width: 100%;
   }
   .big-pic {
-    width: 80%;
+    width: 100%;
   }
   .categore {
     width: 100%;
@@ -224,7 +229,9 @@
     width: 100%;
   }
   .email {
-    width: 60%;
-    flex-direction: column;
+    width: 80%;
+    flex-direction: ROW;
+    margin: 0;
+    padding: 0;
   }
 }
