@@ -10,7 +10,7 @@
   width: 90%;
   height: 90%;
   margin: 0 auto;
-  /* padding: 50px; */
+  padding: 5px;
   /* box-sizing: border-box;
  
   border: none; */
@@ -27,7 +27,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 30px auto;
+  margin: 20px 0;
   padding: 20px auto;
 }
 /* logo end */
